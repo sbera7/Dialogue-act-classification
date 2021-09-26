@@ -12,8 +12,6 @@
 
 </p>
 
-<h1 align="justify">Literary work</h1>
-<p align="justify">Several approaches have been proposed to tackle the DA classification problem. These methods can be divided into two different categories. The first type of methods relies on the independent classification of each utterance using various techniques, such as HMM(Stolcke et al. 2000), SVM (Surendran and Levow 2006) and Bayesian Network (Keizer, op den Akker, and Nijholt 2002).And the second type, which achieves better performance, leverages the context, to improve the classifier performance by using deep learning approaches to capture contextual dependencies between input sentences (Bothe et al. 2018; Khanpour, Guntakandla, and Nielsen 2016). Another refinement of input contextbased classification is the modelling of inter-tag dependencies. This task is tackled as sequence based classification where output tags are considered as a DA sequence (<a href="https://arxiv.org/abs/1904.08637"> Li et al. 2018a</a>;<a href="https://arxiv.org/abs/1810.09154">Kumar et al. 2018</a>  <a href="https://aclanthology.org/J00-3003/">Stolcke et al. 2000</a>; <a href="https://arxiv.org/abs/1810.09154">Chen et al. 2018</a>;<a href="https://arxiv.org/abs/1904.02594">link Raheja and Tetreault 2019</a> ). The current state of art model(<a href="https://arxiv.org/abs/2002.08801">Colombo et al., 2020)</a>. It makes an approach to leverage seq2seq widely adopted in neural machine translation(NMT) to improve the modelling of tag sequentiality with a guided attention mechanism and beam search applied to both training and inference. This proposed approach achieves an accuracy score of 85% on SwDA, and state-of-the-art accuracy score of 91.6% on MRDA.</p>
 
 
 <h1 align="justify">Datasets</h1> 
