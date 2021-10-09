@@ -6,11 +6,51 @@
 <h1 align="justify">Dialogue-act-classification</h1>
 <p align="justify">In Natural language understanding, a dialog act is an utterance, in the context of a conversational dialog, that serves the function in the dialog. Dialog act are a type of speech act. Types of dilog acts may include question, statement or a request. The task of predicting dialog acts(DA) based on dialog system is a key factor in the development of conversational agents.
 <br></br>
-<a>
-         <img alt="Qries" src="https://pic3.zhimg.com/v2-f97ef481ae12b91dfdd78f236ddb2ada_b.jpg"
-         width=500 height=400>
+
 
 </p>
+<table>
+    <tr>
+        <th>Speaker</th>
+        <th>Utterance</th>
+        <th>DA label</th>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>Okay.</td>
+        <td>Other</td>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>Um. what did you do this weekend</td>
+        <td>Question</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>Well, uh, pretty much spent most of my time in this yard</td>
+        <td>Statement</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>[Throat Clearing]</td>
+        <td>Non verbal</td>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>Uh Huh</td>
+        <td>Backchannel</td>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>What do you have planned for your yard?</td>
+        <td>Question</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>Well we are in the process of, realizing it</td>
+        <td>Statement</td>
+    </tr>
+</table>
 
 
 
