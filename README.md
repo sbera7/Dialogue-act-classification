@@ -1,5 +1,5 @@
 <h1>About</h1>
-<p align="justify">This repo contains implementation of basic ideas of sequencial models(such as LSTM, attention) on detecting DA in pyhton using keras layers.</p>
+<p align="justify">This jupyter notebook is about classifying the dialogue act in a sentence. The model is trained on the SwDA and MRDA dataset.</p>
 
 
 
