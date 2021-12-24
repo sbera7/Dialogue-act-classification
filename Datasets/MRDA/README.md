@@ -1,19 +1,6 @@
-# Processing the Meeting Recorder Dialogue Act Corpus
-Utilities for Processing the Meeting Recorder Dialogue Act Corpus outlined in [this paper by Shriberg, E. et al.(2004)](https://aclweb.org/anthology/W04-2319) for the purpose of dialogue act (DA) classification.
-The data can also be downloaded [here](http://groups.inf.ed.ac.uk/ami/icsi/download/).
-The data is split into the original training and test sets suggested by the authors.
-There were two unused dialogues and these were added to the evaluation and test sets.
+# Meeting Recorder Dialogue Act Corpus
+The MRDA corpus consists of about 75 hours of speech from 75 naturally-occurring meetings among 53 speakers. The tagset used for labeling is a modified version of the SWBD-DAMSL tagset. It is annotated with three types of information: marking of the dialogue act segment boundaries, marking of the dialogue acts and marking of correspondences between dialogue acts.
 
-## Scripts
-The mrda_to_text.py script processes all dialogues into a plain text format. Individual dialogues are saved into directories corresponding
-to the set they belong to (train, test, etc). All utterances in a particular set are also saved to a text file.
-
-The utilities.py script contains various helper functions for loading/saving the data.
-
-The process_transcript.py includes functions for processing each dialogue.
-
-The mrda_metadata.py generates various metadata from the processed dialogues and saves them as a dictionary to a pickle file.
-The words, labels and frequencies are also saved as plain text files in the /metadata directory.
 
 ## Data Format
 Utterance are tagged with the MRDA tagset, which is a variation of the [SWBD-DAMSL](https://web.stanford.edu/~jurafsky/ws97/manual.august1.html) DA.
