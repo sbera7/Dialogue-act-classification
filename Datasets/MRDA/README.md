@@ -50,7 +50,6 @@ Disruption                     |          D           |  14548   |  13.45   |   
 FloorGrabber                   |          F           |   7818   |   7.23   |      5324       |   7.09   |      1409       |   8.44   |      1085       |   6.60  
 Question                       |          Q           |   6983   |   6.45   |      4640       |   6.18   |      1231       |   7.37   |      1112       |   6.77 
 
-![Basic Label Frequencies](mrda_data/metadata/MRDA%20Basic%20Label%20Frequency%20Distributions.png)
 
 ### General Labels
 Dialogue Act                   |        Labels        |  Count   |    %     |   Train Count   | Train %  |   Test Count    |  Test %  |    Val Count    |  Val %  
@@ -68,7 +67,6 @@ Rhetorical Question            |          qh          |   352    |   0.33   |   
 Or Question                    |          qr          |   207    |   0.19   |       131       |   0.17   |       37        |   0.22   |       39        |   0.24  
 Open-ended Question            |          qo          |   169    |   0.16   |       116       |   0.15   |       28        |   0.17   |       25        |   0.15  
 
-![General Label Frequencies](mrda_data/metadata/MRDA%20General%20Frequency%20Distributions.png)
 
 ### Full Labels
 Dialogue Act                   |        Labels        |  Count   |    %     |   Train Count   | Train %  |   Test Count    |  Test %  |    Val Count    |  Val %  
@@ -125,8 +123,6 @@ Open-Question                  |          qo          |    74    |   0.07   |   
 Correct-misspeaking            |          bc          |    51    |   0.05   |       29        |   0.04   |       13        |   0.08   |        9        |   0.05  
 Sympathy                       |          by          |    11    |   0.01   |        5        |   0.01   |        2        |   0.01   |        4        |   0.02  
 Welcome                        |          fw          |    6     |   0.01   |        5        |   0.01   |        0        |   0.00   |        1        |   0.01  
-
-![Full Label Frequencies](mrda_data/metadata/MRDA%20Full%20Frequency%20Distributions.png)
 
 ## Metadata
 - Total number of utterances: 108202
