@@ -1,22 +1,8 @@
-# Processing the Switchboard Dialogue Act Corpus
-Utilities for processing the [Switchboard Dialogue Act Corpus](https://web.stanford.edu/~jurafsky/ws97/)
-for the purpose of dialogue act (DA) classification. The data is split into the original [training](https://web.stanford.edu/~jurafsky/ws97/ws97-train-convs.list) 
-and [test](https://web.stanford.edu/~jurafsky/ws97/ws97-test-convs.list) sets suggested by the authors (1115 training and 19 test).
-The remaining 21 dialogues have been used as a validation set.
-
-## Scripts
-The swda_to_text.py script processes all dialogues into a plain text format. Individual dialogues are saved into directories corresponding
-to the set they belong to (train, test, etc). All utterances in a particular set are also saved to a text file.
-
-The utilities.py script contains various helper functions for loading/saving the data.
-
-The process_transcript.py includes functions for processing each dialogue.
-
-The swda_metadata.py generates various metadata from the processed dialogues and saves them as a dictionary to a pickle file.
-The words, labels and frequencies are also saved as plain text files in the /metadata directory.
-
-Thanks to Christopher Potts for providing the raw data in .csv format and the swda.py script for processing the .csv data, both of which can be found [here](https://github.com/cgpotts/swda)
-
+# Switchboard Dialogue Act Corpus
+ <p align = "justify">
+The Switchboard Dialog Act Corpus (SwDA) extends the Switchboard-1 Telephone Speech Corpus, Release 2 with turn/utterance-level dialog-act tags. The tags summarize syntactic, semantic, and pragmatic information about the associated turn. The SwDA project was undertaken at UC Boulder in the late 1990s. The SwDA is not inherently linked to the Penn Treebank 3 parses of Switchboard, and it is far from straightforward to align the two resources. In addition, the SwDA is not distributed with the Switchboard's tables of metadata about the conversations and their participants.
+</p>
+  
 ## Data Format
 Utterance are tagged with the [SWBD-DAMSL](https://web.stanford.edu/~jurafsky/ws97/manual.august1.html) DA.
 
