@@ -1,10 +1,10 @@
 <h1>About</h1>
-<p align="justify">This jupyter notebook is about classifying the dialogue act in a sentence. The model is trained on the SwDA and MRDA dataset.</p>
+<p>This repository is on classifying the dialogue act of the sentences. We are using SWDA and MRDA datasets for training the model.</p>
 
 
 
-<h1 align="justify">Dialogue-act-classification</h1>
-<p align="justify">In Natural language understanding, a dialog act is an utterance, in the context of a conversational dialog, that serves the function in the dialog. Dialog act are a type of speech act. Types of dilog acts may include question, statement or a request. The task of predicting dialog acts(DA) based on dialog system is a key factor in the development of conversational agents.
+<h1>Dialogue-act-classification</h1>
+<p>In natural language understanding, a dialogue act of an utterance within a conversational dialogue refers to the specific function it serves in that context. Dialogue acts are a subtype of speech acts and can take various forms, such as questions, statements, or requests. Predicting dialogue acts is a crucial task in the development of conversational agents, and it plays a key role in enhancing dialog systems.
 <br></br>
 
 
