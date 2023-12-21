@@ -1,5 +1,5 @@
 <h1>About</h1>
-<p>This repository is on classifying the dialogue act of the sentences. We are using SWDA and MRDA datasets for training the model.</p>
+<p>This repository is on classifying the dialogue act of the sentences in a conversation. We are using SWDA and MRDA datasets for training the model.</p>
 
 
 
