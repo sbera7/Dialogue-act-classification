@@ -4,7 +4,7 @@
 
 
 <h1>Dialogue-act-classification</h1>
-<p>In natural language understanding, a dialogue act of an utterance within a conversational dialogue refers to the specific function it serves in that context. Dialogue acts are a subtype of speech acts and can take various forms, such as questions, statements, or requests. Predicting dialogue acts is a crucial task in the development of conversational agents, and it plays a key role in enhancing dialog systems.
+<p>In natural language understanding, a dialogue act of an utterance within a conversational dialogue refers to the specific function it serves in that context. Dialogue acts are a subtype of speech acts and can take various forms, such as questions, statements, or requests. The prediction of dialogue acts holds significant importance in the advancement of conversational agents, playing a pivotal role in the improvement of dialog systems.
 <br></br>
 
 
