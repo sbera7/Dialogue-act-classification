@@ -1,14 +1,9 @@
-<h1>About</h1>
-<p>This repository is on classifying the dialogue act of the sentences in a conversation. We are using SWDA and MRDA datasets for training the model.</p>
+# About
+This repository is on classifying the dialogue act of the sentences in a conversation. We are using SWDA and MRDA datasets for training the model.
 
+# Dialogue-act-classification
+In natural language understanding, a dialogue act characterizes the specific purpose served by an utterance within a conversational dialogue. These acts, falling under the umbrella of speech acts, manifest in diverse forms like questions, statements, or requests. The accurate prediction of dialogue acts plays a crucial role in the evolution of conversational agents, serving as a linchpin for enhancing dialog systems. In this repository, we conducted training using various deep learning algorithms, including CNN and LSTM, and employed different word embeddings to further advance our understanding and capabilities in this domain.
 
-
-<h1>Dialogue-act-classification</h1>
-<p>In natural language understanding, a dialogue act of an utterance within a conversational dialogue refers to the specific function it serves in that context. Dialogue acts are a subtype of speech acts and can take various forms, such as questions, statements, or requests. The prediction of dialogue acts holds significant importance in the advancement of conversational agents, playing a pivotal role in the improvement of dialog systems.
-<br></br>
-
-
-</p>
 <table>
     <tr>
         <th>Speaker</th>
